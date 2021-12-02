@@ -1,0 +1,32 @@
+POST http://localhost:8080/save HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Carlos 7",
+    "phone": "3000000"
+}
+
+####
+
+GET http://localhost:8080 HTTP/1.1
+content-type: application/json
+
+####
+
+POST http://localhost:8080/update/83 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Alex 3",
+    "phone": "50400500"
+}
+
+####
+
+GET http://localhost:8080/find/437 HTTP/1.1
+content-type: application/json
+
+####
+
+GET http://localhost:8080/delete/603 HTTP/1.1
+content-type: application/json
